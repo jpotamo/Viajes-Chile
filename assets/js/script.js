@@ -2,13 +2,13 @@ $(document).ready(function() {
 
     //barra de navegacion solida
     $(window).scroll(function() {
-        var height = $('.first-container').height();
-        var scrollTop = $(window).scrollTop();
+        var height = $('header').height();
+        var scrollTop = $(window).scrollTop();        
 
-        if (scrollTop >= height - 40) {
-            $('.nav-container').addClass('solid-nav');
+        if (scrollTop >= height - 40) {            
+            $('.navbar').addClass('bg-info');
         } else {
-            $('.nav-container').removeClass('solid-nav');
+            $('.navbar').removeClass('bg-info');
         }
     });
 
