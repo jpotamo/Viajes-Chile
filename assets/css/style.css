@@ -5,11 +5,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-nav .nav-item .nav-link{        
-    color: #FFFFFF;    
-}
-
-/*tamaño logo*/
+/*barra de navegacion*/
 .nav-img{
     height: 2.5rem;
 }
