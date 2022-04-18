@@ -10,3 +10,13 @@ body{
     height: 2.5rem;
 }
 
+/*tooltips*/
+.tooltip-inner{
+    background-color: var(--bs-info);
+}
+
+.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: var(--bs-info);
+}
+
+
