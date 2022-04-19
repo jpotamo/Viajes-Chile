@@ -195,22 +195,41 @@
         <form>
             <div class="mb-3">
                 <label for="nombreTextInput" class="form-label">Nombre</label>
-                <input type="text" id="nombreTextInput" class="form-control" placeholder="" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su nombre aquí">
+                <input type="text" id="nombreTextInput" class="form-control" placeholder="" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Ingrese su nombre aquí">
             </div>
             <div class="mb-3">
                 <label for="asuntoTextInput" class="form-label">Asunto</label>
-                <input type="text" id="asuntoTextInput" class="form-control" placeholder="" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese un titulo aquí">
+                <input type="text" id="asuntoTextInput" class="form-control" placeholder="" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Ingrese un titulo para el mensaje aquí">
             </div>
             <div class="mb-3">
                 <label for="mensajeTexttareaInput" class="form-label">Mensaje</label>
-                <textarea class="form-control" placeholder="" id="mensajeTexttareaInput"
-                    style="height: 10rem"  data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su mensaje aquí"></textarea>
+                <textarea class="form-control" placeholder="" id="mensajeTexttareaInput" style="height: 10rem"
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su mensaje aquí"></textarea>
             </div>
 
-
-            <button type="submit" class="btn btn-info text-light">Enviar</button>
+            <button type="submit" class="btn btn-info text-light" data-bs-toggle="modal" data-bs-target="#modal-contacto">Enviar</button>
         </form>
     </section>
+
+    <!--modal-->
+    <div id="modal-contacto" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mensaje enviado</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Pronto nos pondremos en contacto.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--redes sociales-->
@@ -224,7 +243,8 @@
                     <a href="https://github.com/"><i class="fa-brands fa-github-square fa-2x text-light"></i></a>
                     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2x text-light"></i></a>
                     <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square fa-2x text-light"></i></a>
-                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square fa-2x text-light"></i></a>
+                    <a href="https://www.facebook.com/"><i
+                            class="fa-brands fa-facebook-square fa-2x text-light"></i></a>
                 </div>
             </div>
         </div>
