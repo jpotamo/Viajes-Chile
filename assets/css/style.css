@@ -1,3 +1,9 @@
+/*deshabilita el scroll por defecto*/
+html{
+    scroll-behavior: auto !important;
+}
+
+/*google fonts*/
 body{
     padding: 0;
     border: 0;
